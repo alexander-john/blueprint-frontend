@@ -1,6 +1,5 @@
 import { BrowserRouter, Link, Route, Routes , NavLink} from "react-router";
 
-import Navbar from "./Navbar";
 import Home from "./Home";
 import Javascript from "./Javascript";
 import Css from "./Css";
