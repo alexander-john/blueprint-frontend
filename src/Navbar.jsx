@@ -6,34 +6,13 @@ const Navbar = () => {
                     <a href="#">Home</a>
                 </li>
                 <li class="btn">
-                    <div class="dropdown-container">
-                        <a href="#">JavaScript</a>
-                        <span class="material-symbols-outlined">
-                            arrow_drop_up
-                        </span>
-                    </div>
-                    <div class="dropdown-menu">
-                        <ul>
-                            <li>test 1</li>
-                            <li>test 2</li>
-                        </ul>
-                    </div>
+                    <a href="#">JavaScript</a>
                 </li>
-                <li class="btn dropdown-item">
-                    <div class="dropdown-container">
-                        <a href="#">HTML</a>
-                        <span class="material-symbols-outlined">
-                            arrow_drop_up
-                        </span>
-                    </div>
+                <li class="btn">
+                    <a href="#">HTML</a>
                 </li>
-                <li class="btn dropdown-item">
-                    <div class="dropdown-container">
-                        <a href="#">CSS</a>
-                        <span class="material-symbols-outlined">
-                            arrow_drop_up
-                        </span>
-                    </div>
+                <li class="btn">
+                    <a href="#">CSS</a>
                 </li>
             </ul>
         </nav>
