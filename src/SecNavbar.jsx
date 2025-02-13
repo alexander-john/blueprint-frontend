@@ -1,22 +1,22 @@
 import { NavLink } from "react-router";
 
-const Navbar = () => {
+const SecNavbar = () => {
     return (
         <header>
             <nav>
                 <nav id="desktop-nav">
                     <ul class="nav-options">
                         <li class="btn flex-center">
-                            <NavLink to="/">Home</NavLink>
+                            <NavLink to="/">Multiple Choice</NavLink>
                         </li>
                         <li class="btn flex-center">
-                            <NavLink to="javascript">JavaScript</NavLink>
+                            <NavLink to="/">Drag and Drop</NavLink>
                         </li>
                         <li class="btn flex-center">
-                            <NavLink to="html">HTML</NavLink>
+                            <NavLink to="/">True or False</NavLink>
                         </li>
                         <li class="btn flex-center">
-                            <NavLink to="css">CSS</NavLink>
+                            <NavLink to="/">Coding Challenges</NavLink>
                         </li>
                     </ul>
                 </nav>
@@ -25,4 +25,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default SecNavbar;
