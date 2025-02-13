@@ -32,9 +32,6 @@ a:active {
 
 /* navigation */
 
-#desktop-nav {
-}
-
 .nav-options {
   border-bottom: black 2px solid;
   display: flex;
@@ -67,4 +64,21 @@ a:active {
 
 .active {
   border-bottom: black 2px solid;
+}
+
+/* javascript page */
+
+.grid-container {
+  display: grid;
+  max-width: 900px;
+  margin: 0 auto;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+
+.grid-container > p {
+  background-color: #f0f0f0;
+  padding: 40px;
+  border-radius: 20px;
+  border: 2px solid black;
 }
