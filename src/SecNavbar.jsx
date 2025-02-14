@@ -7,7 +7,7 @@ const SecNavbar = () => {
                 <nav id="desktop-nav">
                     <ul className="nav-options">
                         <li className="btn flex-center">
-                            <NavLink to="/">Multiple Choice</NavLink>
+                            <NavLink to="multiple-choice">Multiple Choice</NavLink>
                         </li>
                         <li className="btn flex-center">
                             <NavLink to="/">Drag and Drop</NavLink>

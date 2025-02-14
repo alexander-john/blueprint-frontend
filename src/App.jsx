@@ -17,7 +17,7 @@ const router = createBrowserRouter(
         <Route path="/" element={<Navbar />}>
             <Route path="/" element={<Home />} />
             <Route path="javascript" element={<Javascript />}>
-
+                <Route path="multiple-choice" />
             </Route>
             <Route path="html" element={<Html />} />
             <Route path="css" element={<Css />} />

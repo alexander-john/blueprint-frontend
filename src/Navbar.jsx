@@ -23,6 +23,7 @@ const Navbar = () => {
                     </nav>
                 </nav>
             </header>
+
             <main>
                 <Outlet />
             </main>
