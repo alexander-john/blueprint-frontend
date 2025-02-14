@@ -76,7 +76,7 @@ a:active {
   gap: 30px;
 }
 
-.grid-container > p {
+.grid-container > div {
   background-color: #f0f0f0;
   padding: 40px;
   border-radius: 20px;

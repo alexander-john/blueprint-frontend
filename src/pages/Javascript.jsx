@@ -1,5 +1,5 @@
-import Grid from "./Grid";
-import SecNavbar from "./SecNavbar";
+import Grid from "../Grid";
+import SecNavbar from "../SecNavbar";
 
 export default function Javascript() {
     return (
