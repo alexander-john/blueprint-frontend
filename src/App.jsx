@@ -17,11 +17,14 @@ const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<Navbar />}>
             <Route path="/" element={<Home />} />
-            <Route path="javascript" element={<Javascript />}>
-                <Route path="multiple-choice" element={<MultipleChoice />}/>
-            </Route>
-            <Route path="html" element={<Html />} />
-            <Route path="css" element={<Css />} />
+
+            <Route path="/javascript" element={<Javascript />} />
+            <Route path="/javascript/multiple-choice" element={<MultipleChoice />} />
+            
+            <Route path="/html" element={<Html />} />
+
+            <Route path="/css" element={<Css />} />
+            
         </Route>
     )
 );
