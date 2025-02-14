@@ -11,22 +11,20 @@ const Navbar = () => {
                                 <NavLink to="/">Home</NavLink>
                             </li>
                             <li className="btn flex-center">
-                                <NavLink to="javascript">JavaScript</NavLink>
+                                <NavLink to="/javascript">JavaScript</NavLink>
                             </li>
                             <li className="btn flex-center">
-                                <NavLink to="html">HTML</NavLink>
+                                <NavLink to="/html">HTML</NavLink>
                             </li>
                             <li className="btn flex-center">
-                                <NavLink to="css">CSS</NavLink>
+                                <NavLink to="/css">CSS</NavLink>
                             </li>
                         </ul>
                     </nav>
                 </nav>
             </header>
 
-            <main>
-                <Outlet />
-            </main>
+            <Outlet />
         </>
     );
 };
